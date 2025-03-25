@@ -1,0 +1,8 @@
+{
+    "config": {
+        "departure": "Paris",
+        "arrival": "Lyon",
+        "is_transversal": false,
+        "delta": 3600
+    }
+}
