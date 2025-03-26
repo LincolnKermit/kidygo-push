@@ -21,6 +21,20 @@ for i in datetime:
     data_list.append(i.text)
 
 
-remove_double(data_list)
+for i in price:
+    price_list.append(i.text)
 
-print(data_list)
+
+remove_double(data_list)
+remove_double(price_list)
+
+
+for datetime in data_list:
+    print(datetime)
+
+for price in price_list:
+    print(price)
+
+
+for i in range(0, len(price_list), 2):
+    print(f"index={i}: {price_list[i]}")
